@@ -1,0 +1,68 @@
+              _            _ _   _               _ _                   _        _     _      
+   __ _ _   _(_) __      _(_) |_| |__    ___  __| | |   __ _ _ __   __| |   ___(_) __| |_ __ 
+  / _` | | | | | \ \ /\ / / | __| '_ \  / __|/ _` | |  / _` | '_ \ / _` |  / __| |/ _` | '__|
+ | (_| | |_| | |  \ V  V /| | |_| | | | \__ \ (_| | | | (_| | | | | (_| | | (__| | (_| | |   
+  \__, |\__,_|_|   \_/\_/ |_|\__|_| |_| |___/\__,_|_|  \__,_|_| |_|\__,_|  \___|_|\__,_|_|   
+  |___/
+---------------------------------------------------------------------------------------------
+
+TODO:
+* Controls/Widgets
+  | Properties: anchor, enabled/active, hide, (padding, border, margin, box-sizing)
+  * Labels
+  * Images
+  * Buttons
+  * Check boxes/toggels/triggers
+  * Radio buttons
+  * Slider
+  * Text boxes
+  * Selection boxes
+  ? List boxes
+  ? Color picker
+  ? Menu
+  ? tabs
+ 
+* Windows/Containers
+  * Panels
+  * Group boxes
+  * Control buttons _ [] X (roll up/shade)
+  * Resizeable 
+  ? Scrollable
+  ? Auto sizing (based on controls insde)
+  
+* Events
+  * On mouse enter/leave (On hover)
+  * On key press/down/up
+  ? On focus
+  ? On resize
+  
+* Customizable 
+  * Window borders
+  * Controls
+  ? Using images
+  ? Padding border margin
+
+* Misc
+  * Different cursor
+  
+? keyboard support (move with tab to different controls)
+
+DEMO: 
+ * star field
+ * normal mapping 
+ ? dithering
+ ? custom control
+ 
++----------------------+
+| A window       _ O X |
++----------------------+
+|                      |
+|                      |
+|                      |
+|                      |
++----------------------+
+
+
+Button b("Click me!");
+Panel p;
+p.AddChild(b); 
